@@ -34,14 +34,14 @@
 				<configuration> 
         <cloudHubDeployment> 
           <muleVersion>4.1.4</muleVersion> 
-          <username>abadi2121</username> 
+          <username>abadi2222</username> 
           <password>Abe@0913</password> 
           <environment>Sandbox</environment> 
           <!-- <region>eu-central-1</region>  -->
           <workerType>Micro</workerType>
           <workers>1</workers> 
           <uri>https://anypoint.mulesoft.com</uri>; 
-          <applicationName>jenkins-cicd-projects</applicationName> 
+          <applicationName>cicd-jenkins</applicationName> 
         </cloudHubDeployment> 
       </configuration> 
       <executions> 

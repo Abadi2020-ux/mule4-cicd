@@ -12,7 +12,7 @@ pipeline
  
   stage('Deploy Application To Mulesoft CloudHub'){
 steps{ 
-bat 'mvn package deploy -DmuleDeploy'
+bat 'mvn package deploy -DmuleDeploy -DruntimeVeresion=4.1.4'
  }
  }
  }
